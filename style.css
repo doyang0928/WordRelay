@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+body{
+    text-align: center;
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 150%;
+    background-color: rgba(255, 255, 0, 0.273);
+    color: rgb(9, 24, 0);
+    font-family: "Montserrat", sans-serif;
+}
+input::placeholder{
+    color: red;
+    font-style: italic;
+}
+
+p{
+    font-size: 200%;
+    color:rgb(85, 0, 255);
+}
+button{
+    background-color: aqua;
+    color: rgb(75, 24, 217);
+    width: 50px;
+    height: 35px;
+    border-radius: 8px;
+    font-family: 'Jua', sans-serif;
+}
+button:hover{
+    color:rgba(9, 140, 255, 0.462);
+    cursor:grab;
+}
+input{
+
+    background-color: rgb(0, 242, 255);
+    color: rgb(44, 23, 206);
+    width: 200px;
+    height: 35px;
+    border-radius: 8px;
+    font-family: 'Jua', sans-serif;
+}
